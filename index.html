@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Privacy Policy — Cedeno Finance Dashboard</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">body { font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px; line-height: 1.6; color: #1c1c1e; background: #ffffff;
+max-width: 44em; margin: 0 auto; padding: 3em 1.5em 4em; }
+h1 { font-size: 1.7em; border-bottom: 2px solid #1c1c1e; padding-bottom: .3em; }
+h2 { font-size: 1.15em; margin-top: 1.8em; }
+code { background: #f2f2f4; padding: 1px 5px; border-radius: 3px; font-size: .9em; }
+a { color: #0a58ca; }
+@media (prefers-color-scheme: dark) {
+body { background: #111114; color: #e8e8ea; }
+h1 { border-color: #e8e8ea; }
+code { background: #26262b; }
+a { color: #7ab5ff; }
+}
+</style>
+</head>
+<body>
+<h1 id="privacy-policy">Privacy Policy</h1>
+<p><strong>Cedeno Finance Dashboard</strong><br />
+<strong>Last updated:</strong> 2026-08-12</p>
+<h2 id="summary">Summary</h2>
+<p>Cedeno Finance Dashboard is a personal finance application built and
+used by one person, its developer. It has no other users. It does not
+collect data about anyone else, and it does not share data with
+anyone.</p>
+<h2 id="who-this-covers">Who this covers</h2>
+<p>The application has a single user, who is also its developer and
+operator. It is not offered to the public, has no registration or
+sign-up, and no other person can create an account or access it.</p>
+<h2 id="what-data-is-accessed">What data is accessed</h2>
+<p>Through the Plaid API, and only for accounts belonging to the
+operator:</p>
+<ul>
+<li>Account balances and account metadata</li>
+<li>Transaction history</li>
+<li>Liabilities, including credit card, auto lease, and student loan
+details</li>
+<li>Investment holdings</li>
+</ul>
+<p>Financial institution login credentials are entered directly into
+Plaid Link and are never seen, received, or stored by this application.
+The application holds only Plaid access tokens, which permit read access
+to the accounts the operator has explicitly linked.</p>
+<h2 id="how-it-is-used">How it is used</h2>
+<p>To display balances and net worth, categorise and analyse spending,
+plan debt payoff, forecast cash flow, and prepare tax summaries. All of
+it for the operator’s own accounts.</p>
+<p>The data is not used to train models offered to anyone else, is not
+aggregated with other people’s data, and is not used for advertising or
+profiling.</p>
+<h2 id="where-it-is-stored">Where it is stored</h2>
+<p>In a local SQLite database on the operator’s personal machine,
+protected by full-disk encryption and an operating system account
+secured with multi-factor authentication. The application is served on
+the loopback interface only and is not reachable from any network.</p>
+<h2 id="who-it-is-shared-with">Who it is shared with</h2>
+<p>No one.</p>
+<p>The data is not sold, rented, licensed, transferred, or disclosed to
+any third party. There are no analytics services, no advertising
+networks, no error reporting services, and no cloud backups. The only
+external service the application communicates with is the Plaid API,
+which is the source of the data.</p>
+<h2 id="retention-and-deletion">Retention and deletion</h2>
+<p>Covered in the Data Retention and Deletion Policy. In short:
+transaction history is retained indefinitely, since the operator is the
+only data subject and long history is what the application is for;
+disconnecting an institution invalidates its access token at Plaid;
+deleting the local database removes everything, and can be done at any
+time.</p>
+<h2 id="your-rights">Your rights</h2>
+<p>The only data subject is the operator, who holds the data directly
+and can inspect, export, or delete any of it at any time without making
+a request to any third party.</p>
+<h2 id="contact">Contact</h2>
+<p>aplaceforscience@gmail.com</p>
+</body>
+</html>
